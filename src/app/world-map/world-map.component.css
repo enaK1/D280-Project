@@ -1,0 +1,24 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.country-info {
+    text-align: center;
+    background-color: linen;
+    border-radius: 25px;
+    width: 15%;
+}
+
+.map {
+    height: 50rem;
+    width: 80rem;
+}
+
+path:hover {
+    fill: lightblue;
+    stroke: black;
+}
